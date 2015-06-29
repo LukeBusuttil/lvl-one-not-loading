@@ -1,0 +1,17 @@
+# lvl-one-not-loading
+Game scene 2 which consisted of level 1 wasn’t loading.
+
+using UnityEngine;
+using System.Collections;
+
+public class startScript : MonoBehaviour
+{
+	
+	//when the mouse is clicked
+	void OnMouseDown ()
+	{
+		//load level one
+		Application.LoadLevel (2);
+	}
+
+}
